@@ -1,0 +1,6 @@
+{
+  "name": "AI Social Media Assistant",
+  "description": "Upload a screenshot of a social media post and this AI assistant will generate a professional response. Customize the tone, style, and content to perfectly match your brand's voice.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

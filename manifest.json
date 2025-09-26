@@ -1,0 +1,50 @@
+{
+  "short_name": "Social AI",
+  "name": "AI Social Media Assistant",
+  "description": "Upload a screenshot of a social media post and this AI assistant will generate a professional response. Customize the tone, style, and content to perfectly match your brand's voice.",
+  "id": "/",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIwIiBmaWxsPSIjNEY0NkU1Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTM1IDUwYTE1IDE1IDAgMDAzMCAwSDM1em0tMi41LTE3LjVhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6bTM1IDBhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6Ii8+PC9zdmc+",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIwIiBmaWxsPSIjNEY0NkU1Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTM1IDUwYTE1IDE1IDAgMDAzMCAwSDM1em0tMi41LTE3LjVhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6bTM1IDBhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6Ii8+PC9zdmc+",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIwIiBmaWxsPSIjNEY0NkU1Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTM1IDUwYTE1IDE1IDAgMDAzMCAwSDM1em0tMi41LTE3LjVhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6bTM1IDBhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6Ii8+PC9zdmc+",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIwIiBmaWxsPSIjNEY0NkU1Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTM1IDUwYTE1IDE1IDAgMDAzMCAwSDM1em0tMi41LTE3LjVhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6bTM1IDBhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6Ii8+PC9zdmc+",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#0C0C0F",
+  "background_color": "#0C0C0F",
+  "share_target": {
+    "action": "/",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "files": [
+        {
+          "name": "image",
+          "accept": ["image/*"]
+        }
+      ]
+    }
+  }
+}

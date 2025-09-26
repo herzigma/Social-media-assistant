@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Social Media Assistant</title>
+    
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIwIiBmaWxsPSIjNEY0NkU1Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTM1IDUwYTE1IDE1IDAgMDAzMCAwSDM1em0tMi41LTE3LjVhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6bTM1IDBhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6Ii8+PC9zdmc+">
+    <meta name="theme-color" content="#0C0C0F" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIwIiBmaWxsPSIjNEY0NkU1Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTM1IDUwYTE1IDE1IDAgMDAzMCAwSDM1em0tMi41LTE3LjVhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6bTM1IDBhMi41IDIuNSAwIDExLTUgMCAyLjUgMi41IDAgMDE1IDB6Ii8+PC9zdmc+">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'gray-950': '#0C0C0F',
+              'gray-900': '#111115',
+              'gray-800': '#1C1C22',
+              'gray-700': '#33333D',
+              'gray-400': '#9CA3AF',
+              'gray-200': '#E5E7EB',
+              'indigo-500': '#6366F1',
+              'indigo-600': '#4F46E5',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.13.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-950">
+    <div id="root"></div>
+  </body>
+</html>
